@@ -2,31 +2,33 @@
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
 
-### `develop`
+Project using the following frontend : [Expo app](https://github.com/Snowsdy/expo-app)
+
+## `develop`
 
 Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
 
-```
+```sh
 npm run develop
 # or
 yarn develop
 ```
 
-### `start`
+## `start`
 
 Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
 
-```
+```sh
 npm run start
 # or
 yarn start
 ```
 
-### `build`
+## `build`
 
 Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
 
-```
+```sh
 npm run build
 # or
 yarn build
@@ -36,7 +38,7 @@ yarn build
 
 Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
 
-```
+```sh
 yarn strapi deploy
 ```
 
@@ -58,4 +60,4 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 
 ---
 
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+> 🤫 Psst! [Strapi is hiring](https://strapi.io/careers).
